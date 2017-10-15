@@ -1,9 +1,9 @@
-import React from "react";
-import { render } from "react-dom";
-import update from "immutability-helper";
-var EventEmitter = require('events').EventEmitter;
-var assign = require('object-assign');
-var createReactClass = require('create-react-class');
+import React from 'react';
+import { render } from 'react-dom';
+import update from 'immutability-helper';
+import EventEmitter from 'event-emitter';
+import assign from 'object-assign';
+import createReactClass from 'create-react-class';
 
 var generateId = (function() {
   var id = 0;
