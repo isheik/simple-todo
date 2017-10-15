@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/isheik/simple-todo#readme",
   "dependencies": {
+    "create-react-class": "^15.6.2",
     "react-dom": "^16.0.0"
   },
   "devDependencies": {
