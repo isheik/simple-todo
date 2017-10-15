@@ -1,5 +1,5 @@
 import React from 'react';
-import { render } from 'react-dom';
+import render from 'react-dom';
 import update from 'immutability-helper';
 import EventEmitter from 'event-emitter';
 import assign from 'object-assign';
@@ -11,7 +11,6 @@ var generateId = (function() {
     return '_' + id++;
   }
 })();
-
 
 var todos = [{
     id: '_1',
@@ -112,8 +111,6 @@ var TodoForm = createReactClass({
     }
 });
 
-
-
 var App = createReactClass({
     getInitialState: function(){
         return {
@@ -141,7 +138,5 @@ var App = createReactClass({
         );
     }
 });
-
-
 
 export default App;

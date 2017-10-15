@@ -21203,6 +21203,8 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactDom = __webpack_require__(11);
 
+var _reactDom2 = _interopRequireDefault(_reactDom);
+
 var _immutabilityHelper = __webpack_require__(34);
 
 var _immutabilityHelper2 = _interopRequireDefault(_immutabilityHelper);
@@ -21220,8 +21222,6 @@ var _createReactClass = __webpack_require__(52);
 var _createReactClass2 = _interopRequireDefault(_createReactClass);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-// var createReactClass = require('create-react-class');
 
 var generateId = function () {
     var id = 0;
